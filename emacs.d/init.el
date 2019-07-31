@@ -62,7 +62,7 @@
   (interactive)
   (backward-word)
   (kill-word 1))
-(global-set-key (kbd "C-c C-w") 'kill-inner-word)
+(global-set-key (kbd "C-c w") 'kill-inner-word)
 
 ;; Popup kill ring
 (use-package popup-kill-ring
